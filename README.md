@@ -1,50 +1,49 @@
-# Job Application Tracker
+# 💼 Job Application Tracker
 
-A React-based job application tracking system that allows users to manage their job applications with features like search, filter, sort, and pagination.
+A simple and efficient web application to help users track their job applications, monitor progress, manage statuses, and stay organized throughout their job-hunting journey.
 
-## Features
+---
 
-- **Authentication**: Fake authentication system with role-based access
-- **Protected Routes**: Secure routes that require login
-- **Add Applications**: Form to add new job applications with validation
-- **View Applications**: Table view with search, filter, sort, and pagination
-- **Dashboard**: Summary cards showing application statistics
-- **Edit/Delete**: Edit and delete applications (bonus features)
+## 🚀 Overview
 
-## Getting Started
+The **Job Application Tracker** allows users to:
 
-### Installation
+- Add, update, and delete job applications  
+- Track application statuses (Applied, Interviewing, Rejected, Accepted)  
+- Store important job details like position, company, salary, and notes  
+- View a dashboard of total applications and their progress  
+- Improve job search productivity and organization  
 
-1. Install dependencies:
-```bash
-npm install
-```
+---
 
-2. Start the development server:
-```bash
-npm start
-```
+## ✨ Features
 
-The app will open at `http://localhost:3000`
+- 📝 Add & manage job applications  
+- 🔄 Update application status  
+- 📊 Dashboard with statistics  
+- 🔍 Search & filter applications  
+- 📁 Clean UI and responsive design  
+- 💾 Local storage
 
-## Usage
+---
 
-### Login
-- Use any email and password (minimum 6 characters)
-- For manager role, use: `hrmanager@gmail.com`
-- For regular user role, use any other email
 
-### Routes
-- `/` - Home/Landing page
-- `/login` - Login page
-- `/dashboard` - Dashboard with summary (Protected)
-- `/add-application` - Add new application form (Protected)
-- `/applications` - View all applications table (Protected)
 
-## Technologies Used
 
-- React 18
-- React Router DOM v6
-- Context API for state management
-- CSS for styling
+## Screenshots
+**Login**
 
+![Login](https://hard-ivory-fknezho0vm-jg64yy3lal.edgeone.dev/Screenshot%202025-12-07%20160121.png)
+
+
+**Home**
+![Home](https://intimate-magenta-glyqjuw0hg-2lifiv5zy9.edgeone.dev/Screenshot%202025-12-07%20160217.png)
+
+**Dashboard**
+![Dashboard](https://img.sanishtech.com/u/76cd08ee5044eb4c4e2cf960fee3d905.png)
+
+**Add job Application**
+![](https://img.sanishtech.com/u/0b221463b65541cbeef2d1fb3faa5b68.png)
+
+**Application**
+![](https://img.sanishtech.com/u/dcd2c5c2bce2fd75ca93e13630d94bc3.png)
